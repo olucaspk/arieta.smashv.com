@@ -14,7 +14,7 @@ export default function BlogPostComponent({ children, data }: Props) {
     <Layout
       title={`${data.title} - Lucas Arieta`}
       description={data.summary}
-      image={`https://arieta.com.br${data.image}`}
+      // image={`https://arieta.com.br${data.image}`}
       date={new Date(data.publishedAt).toISOString()}
       type='article'
     >
@@ -33,7 +33,7 @@ export default function BlogPostComponent({ children, data }: Props) {
               <div className='w-8 h-8 mr-2 relative'>
                 <Image
                   alt='Lucas Arieta'
-                  src='https://github.com/olucaspk.png'
+                  src='/static/images/io.jpeg'
                   className='rounded-full'
                   width={100}
                   height={100}

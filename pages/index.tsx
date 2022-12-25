@@ -96,7 +96,7 @@ export default function Home() {
 
         <div className='shadow-lg rotate-3 ml-10 w-full h-full'>
           <Image
-            src='https://github.com/olucaspk.png'
+            src='/static/images/avatar2.png'
             alt=''
             className='w-full h-full object-cover rounded-md'
             width={500}

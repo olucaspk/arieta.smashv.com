@@ -13,7 +13,7 @@ export default function Blog() {
         <div className='flex flex-col'>
           <h2 className='text-2xl font-bold'>Posts</h2>
           <p className='text-gray-500'>
-            Thoughts on what I'm building and learning.
+            Thoughts on what I&apos;m building and learning.
           </p>
         </div>
 

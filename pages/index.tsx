@@ -23,7 +23,7 @@ export default function Home() {
       <main className='mt-20 flex'>
         <div className='max-w-[70%] flex flex-col gap-2 text-gray-600'>
           <h1 className='font-bold text-3xl max-w-[80%] mb-3 text-black'>
-            Hello! I'm Lucas, a{' '}
+            Hello! I&apos;m Lucas, a{' '}
             <RoughNotate type='highlight' color='lavender'>
               developer
             </RoughNotate>{' '}
@@ -31,7 +31,7 @@ export default function Home() {
           </h1>
 
           <p>
-            I'm a{' '}
+            I&apos;m a{' '}
             <RoughNotate type='highlight' color='lightpink'>
               full-stack web developer
             </RoughNotate>{' '}
@@ -70,7 +70,7 @@ export default function Home() {
           </p>
 
           <p>
-            I'm currently looking for a new role as a developer?{' '}
+            I&apos;m currently looking for a new role as a developer?{' '}
             <RoughNotate type='circle' color='lightblue'>
               <span className='font-semibold'>Hire me?</span>
             </RoughNotate>
@@ -118,7 +118,7 @@ export default function Home() {
           </div>
 
           <p className='text-gray-500'>
-            Thoughts on what I'm building and learning.
+            Thoughts on what I&apos;m building and learning.
           </p>
         </div>
 

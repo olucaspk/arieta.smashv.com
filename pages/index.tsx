@@ -70,7 +70,7 @@ export default function Home() {
           </p>
 
           <p>
-            I&apos;m currently looking for a new role as a developer?{' '}
+            I&apos;m currently looking for a new role as a developer.{' '}
             <RoughNotate type='circle' color='lightblue'>
               <span className='font-semibold'>Hire me?</span>
             </RoughNotate>
@@ -94,7 +94,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='shadow-lg rotate-3 ml-10 w-full h-full'>
+        <div className='shadow-2xl rotate-3 ml-10 w-full h-full'>
           <Image
             src='/static/images/avatar2.png'
             alt=''

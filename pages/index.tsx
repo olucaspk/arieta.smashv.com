@@ -69,13 +69,6 @@ export default function Home() {
             achieving success.
           </p>
 
-          <p>
-            I&apos;m currently looking for a new role as a developer.{' '}
-            <RoughNotate type='circle' color='lightblue'>
-              <span className='font-semibold'>Hire me?</span>
-            </RoughNotate>
-          </p>
-
           <div className='mt-2 flex gap-5'>
             <Link
               href='https://www.linkedin.com/in/lucas-arieta/'

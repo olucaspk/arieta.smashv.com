@@ -14,7 +14,7 @@ export default function BlogPostComponent({ children, data }: Props) {
     <Layout
       title={`${data.title} - Lucas Arieta`}
       description={data.summary}
-      // image={`https://arieta.com.br${data.image}`}
+      image={`https://arieta.smashv.com${data.image}`}
       date={new Date(data.publishedAt).toISOString()}
       type='article'
     >

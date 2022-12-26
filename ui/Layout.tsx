@@ -16,7 +16,7 @@ export default function Layout({ children, ...customMeta }: LayoutProps) {
   const meta = {
     title: 'Lucas Arieta',
     description: 'Software developer',
-    image: 'http://localhost:3000/images/banner.png',
+    image: 'http://arieta.smashv.com/images/banner.png',
     type: 'website',
     ...customMeta,
   };
@@ -27,11 +27,14 @@ export default function Layout({ children, ...customMeta }: LayoutProps) {
         <title>{meta.title}</title>
         <meta name='robots' content='follow, index' />
         <meta content={meta.description} name='description' />
-        {/* <meta
+        <meta
           property='og:url'
-          content={`https://arieta.com.br${router.asPath}`}
-        /> */}
-        {/* <link rel='canonical' href={`https://arieta.com.br${router.asPath}`} /> */}
+          content={`https://arieta.smashv.com${router.asPath}`}
+        />
+        <link
+          rel='canonical'
+          href={`https://arieta.smashv.com${router.asPath}`}
+        />
         <meta property='og:type' content={meta.type} />
         <meta property='og:site_name' content='Lucas Arieta' />
         <meta property='og:description' content={meta.description} />
